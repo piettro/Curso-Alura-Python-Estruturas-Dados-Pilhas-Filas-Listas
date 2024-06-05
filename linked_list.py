@@ -3,7 +3,7 @@ class Celula:
         self.content = content
         self.next = None
 
-class ListaLigada:
+class LinkedList:
     def __init__(self):
         self._begin = None
         self._quantity = 0

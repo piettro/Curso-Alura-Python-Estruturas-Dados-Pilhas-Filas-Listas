@@ -1,4 +1,4 @@
-from linked_list import ListaLigada, Celula
+from linked_list import LinkedList, Celula
 
 class Store:
     def __init__(self, name, address):
@@ -15,7 +15,7 @@ def main():
     store_4 = Store("Supermercado da Saúde", "Alameda das Jabuticabeiras, 500")
     store_5 = Store("Mini mercado da Fazenda", "Rua da Fazenda, 98")
 
-    linked_list = ListaLigada()
+    linked_list = LinkedList()
     linked_list.insert_in_begin(store_1)
     linked_list.insert_in_begin(store_2)
     linked_list.insert(2, store_3)
